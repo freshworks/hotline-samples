@@ -3,6 +3,8 @@
 
 [Swift](https://github.com/freshdesk/hotline-samples/tree/master/SwiftSample)
 
+[Phonegap](https://github.com/freshdesk/hotline-samples/tree/master/PhonegapSample)
+
 
 # Support
 
