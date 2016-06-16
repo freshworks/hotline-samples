@@ -40,6 +40,21 @@ document.addEventListener("deviceready", function(){
  
  Once initialized you can call Hotline APIs using the window.Hotline object.
  
+ ### Updating user details ###
+ 
+ To update user details call the Hotline.updateUser(userInfo) API where userInfo accepts a JSON.
+ 
+ Sample snippet:
+ 
+ ```javascript
+ window.Hotline.updateUser({ 
+   "name" : "John Doe", 
+   "email" : "johndoe@dead.man", 
+   "externalId" : "some unique Identifier from your system", 
+   "countryCode" : "+91", 
+   "phoneNumber" : "1234234123"
+});
+```
  More information can be found [here](https://github.com/freshdesk/hotline-phonegap) .
  
 
