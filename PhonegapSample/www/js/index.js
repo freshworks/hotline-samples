@@ -40,42 +40,15 @@ var app = {
 
         document.getElementById("update_user_form").onclick = function() {
 
-            var email = document.createElement("INPUT");
-            email.setAttribute("type", "email");
-            email.setAttribute("value", "john@example.com");
-            document.body.appendChild(email);
-
-            var name = document.createElement("INPUT");
-            name.setAttribute("type", "text");
-            name.setAttribute("value", "pablo neruda");
-            document.body.appendChild(name);
+            document.getElementById("user_input_form_section").style.display = "block";
             
-            var countryCode = document.createElement("INPUT");
-            countryCode.setAttribute("type", "number");
-            countryCode.setAttribute("value", "+91");
-            document.body.appendChild(countryCode);
-            
-            var phoneNumber = document.createElement("INPUT");
-            phoneNumber.setAttribute("type", "number");
-            phoneNumber.setAttribute("value", "123456");
-            document.body.appendChild(phoneNumber);
-            
-            var externalId = document.createElement("INPUT");
-            externalId.setAttribute("type", "text");
-            externalId.setAttribute("value", "external id");
-            document.body.appendChild(externalId);
-            
-            var submitUser = document.createElement("INPUT");
-            submitUser.setAttribute("type", "button");
-            submitUser.setAttribute("value", "update user");
-            document.body.appendChild(submitUser);
-            submitUser.onclick = function() {
+            document.getElementById("submit").onclick = function() {
                  window.Hotline.updateUser({ 
-                   "name" : name.value, 
-                   "email" : email.value, 
-                   "externalId" : externalId.value, 
-                   "countryCode" : countryCode.value,
-                   "phoneNumber" : phoneNumber.value
+                   "name" : document.getElementById("name").value, 
+                   "email" : document.getElementById("email").value, 
+                   "externalId" : document.getElementById("externalId").value, 
+                   "countryCode" : document.getElementById("countryCode").value,
+                   "phoneNumber" : document.getElementById("phoneNumber").value
                 });
             };
             
