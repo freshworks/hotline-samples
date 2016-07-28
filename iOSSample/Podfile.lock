@@ -1,0 +1,10 @@
+PODS:
+  - HotlineSDK (1.1.2)
+
+DEPENDENCIES:
+  - HotlineSDK
+
+SPEC CHECKSUMS:
+  HotlineSDK: b73865cb51ec46b351b89b6e7c7e0ef03a491bb2
+
+COCOAPODS: 0.39.0
