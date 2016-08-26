@@ -6,6 +6,7 @@
 
 [Phonegap](https://github.com/freshdesk/hotline-samples/tree/master/PhonegapSample)
 
+[Android](https://github.com/freshdesk/hotline-android/tree/master/demo_app)
 
 # Support
 
