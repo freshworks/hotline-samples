@@ -2,7 +2,7 @@
 
 This sample project acts as a guide to integrating [Hotline Phonegap plugin](https://github.com/freshdesk/hotline-phonegap)
 
-Documentation to integrate the native Hotline SDKs can be found [here](http://hotline.freshdesk.com/support/solutions)
+Documentation to integrate the native Hotline SDKs can be found [here](http://support.hotline.io/support/solutions)
 
 ## Usage guide ##
 

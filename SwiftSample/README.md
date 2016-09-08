@@ -12,7 +12,7 @@ Update the appId and appKey in AppDelegate.swift
 
 Run the project from Xcode 
 
-[Documentation](http://hotline.freshdesk.com/support/solutions)
+[Documentation](http://support.hotline.io/support/solutions)
 
 For any support/questions please email [support@hotline.io](mailto:support@hotline.io)
 
