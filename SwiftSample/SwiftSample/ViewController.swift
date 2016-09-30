@@ -20,19 +20,25 @@ class ViewController: UIViewController {
     }
     
     @IBAction func presentFAQHere(sender: AnyObject) {
-        Hotline.sharedInstance().showFAQs(self)
+        let options = FAQOptions.init()
+        options.showFaqCategoriesAsGrid = true;	//For displaying faq in grid format
+        
+        //Uncomment if you want to display faq with filter tags
+        //let tags: [String] = ["Billing","Payment"] //Add tags array
+        //options.filterByTags(tags, withTitle: "Payments")
+        
+        Hotline.sharedInstance().showFAQs(self, withOptions: options)
+        
+        
+        //To display faq without options
+        
+        //Hotline.sharedInstance().showFAQs(self)
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-//    override func didReceiveMemoryWarning() {
-//        super.didReceiveMemoryWarning()
-//        // Dispose of any resources that can be recreated.
-//    }
-
 
 }
 
