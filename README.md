@@ -1,12 +1,15 @@
 # Hotline SDK Samples 
 
-[iOS](https://github.com/freshdesk/hotline-samples/tree/master/iOSSample)
+## iOS
+ - [Obj C Sample](https://github.com/freshdesk/hotline-samples/tree/master/iOS/iOSSample)
 
-[Swift](https://github.com/freshdesk/hotline-samples/tree/master/SwiftSample)
+ - [Swift Sample](https://github.com/freshdesk/hotline-samples/tree/master/iOS/SwiftSample)
 
-[Phonegap](https://github.com/freshdesk/hotline-samples/tree/master/PhonegapSample)
+## Android
+ - [FCM Sample](https://github.com/freshdesk/hotline-samples/tree/master/Android/HotlineFCMDemo)
 
-[Android](https://github.com/freshdesk/hotline-android/tree/master/demo_app)
+## PhoneGap
+ - [Phonegap](https://github.com/freshdesk/hotline-samples/tree/master/PhoneGap/PhonegapSample)
 
 # Support
 
