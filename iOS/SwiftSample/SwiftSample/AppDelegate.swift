@@ -36,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let config = HotlineConfig.init(appID: "<AppID>", andAppKey: "<AppKey>")
         
         config.agentAvatarEnabled = false;
-        config.voiceMessagingEnabled = false;
+        config.voiceMessagingEnabled = true;
         
         /*
         * Following three methods are to identify a user.
