@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  SwiftSample
 //
-//  Created by Harish Kumar on 19/05/16.
-//  Copyright © 2016 Harish Kumar. All rights reserved.
+//  Copyright © 2015 Freshdesk. All rights reserved.
 //
 
 import UIKit

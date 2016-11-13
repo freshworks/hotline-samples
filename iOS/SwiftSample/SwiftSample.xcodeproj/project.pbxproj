@@ -26,7 +26,6 @@
 		6894A7421CEDC2AB008547AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6894A7441CEDC2AB008547AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6894A7661CEDC6C2008547AD /* SwiftSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftSample-Bridging-Header.h"; sourceTree = "<group>"; };
-		6894A7671CEDCCB6008547AD /* SwiftSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		FF23415B9C29CC61F43A5A8D /* Pods-SwiftSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSample/Pods-SwiftSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +63,6 @@
 			children = (
 				6894A7371CEDC2AA008547AD /* SwiftSample */,
 				6894A7361CEDC2AA008547AD /* Products */,
-				6894A7671CEDCCB6008547AD /* SwiftSample-Bridging-Header.h */,
 				237D834529815D834B113C1C /* Pods */,
 				1C330DCE58335AC1791F2DAD /* Frameworks */,
 			);
