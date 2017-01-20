@@ -3,7 +3,9 @@
 ## iOS
  - [Obj C Sample](https://github.com/freshdesk/hotline-samples/tree/master/iOS/iOSSample)
 
- - [Swift Sample](https://github.com/freshdesk/hotline-samples/tree/master/iOS/SwiftSample)
+ - [Swift 2.3 Sample](https://github.com/freshdesk/hotline-samples/tree/master/iOS/SwiftSample/Swift2)
+
+ - [Swift 3 Sample](https://github.com/freshdesk/hotline-samples/tree/master/iOS/SwiftSample/Swift3)
 
 ## Android
  - [FCM Sample](https://github.com/freshdesk/hotline-samples/tree/master/Android/HotlineFCMDemo)

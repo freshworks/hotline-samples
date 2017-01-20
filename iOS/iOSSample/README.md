@@ -4,7 +4,6 @@ This project is a sample to demostrate usage of [Hotline iOS SDK](http://hotline
 # How to run this
 
 ```
-cd iOSSample 
 pod install 
 open Hotline.xcworkspace
 ```

@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // You can get the appId and appKey from https://web.hotline.io/settings/apisdk
         
-        let config = HotlineConfig.init(appID: "<AppID>", andAppKey: "<AppKey>")
+        let config = HotlineConfig.init(appID: "<#<APP ID>#>", andAppKey: "<#<APP KEY>#>")
         
         config.agentAvatarEnabled = false;
         config.voiceMessagingEnabled = true;

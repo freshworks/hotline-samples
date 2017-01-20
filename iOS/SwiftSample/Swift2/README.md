@@ -3,8 +3,7 @@ This project is a sample to demostrate usage in Swift for [Hotline iOS SDK](http
 
 # How to run this
 
-```
-cd SwiftSample 
+``` 
 pod install 
 open SwiftSample.xcworkspace
 ```
